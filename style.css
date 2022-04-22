@@ -1,0 +1,67 @@
+nav {
+    /* this changes the background color of the navbar */
+   background-color: gray;
+   /* This adds creates blank space around the navbar */
+   padding: 10px;
+   }
+   
+    /* This code handles the nav-list class */
+   .nav-list {
+    /* this will remove the circle in front of the items in the list */
+   list-style: none;
+   /* this will active flexbox and put the list items in one row */
+    display: flex;
+   /* this flexbox attribute will move all the items to the center */
+   justify-content: center;
+   }
+   
+   /* This code handles the links in the unordered list */
+   .nav-item a{ 
+    /* this will add padding (space) to each list item */
+   padding: 10px 15px;
+    /* this will remove the underline from our links */
+   text-decoration: none;
+   /* this will change the text color of the links */
+   color: white;
+   /* Font size of the nav item text */
+   font-size: 1.25em;
+   text-align: center;
+   }
+
+   footer {
+    /* this changes the background color of the footer */
+     background-color: gray;
+     /* this changes the padding of the footer */
+     padding: 5px 5px;
+     /* this changes the text to be aligned center */ 
+     text-align: center;
+     /* this changes the text color to white*/
+     color: white;
+    }  
+    h1 {
+        /*This changes the font family to arial*/
+        font-family: arial;
+        /*Changes font size to 40px*/
+        font-size: 45px;
+        /*Changes color to green*/
+        color: green ;
+        /* Centers the text */
+        text-align: center;
+        font-weight: bold;
+        }
+        
+        /* Changes the properties of h2 */
+        h2 {
+        /*This changes the font family to arial*/
+        font-family: arial;
+        /*Changes font size to 40px*/
+        font-size: 35px;
+        /*Changes color to green*/
+        color: #99badd ;
+        /* Text aligh to center */
+        text-align: center;
+        }
+        ul {
+            display: table;
+            margin: 0 auto;
+          }

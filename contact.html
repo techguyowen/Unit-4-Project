@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <!-- this is my dispays a site favicon (little site image in the tab) -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png">
+<link rel="manifest" href="/favicon_io/site.webmanifest">
+    <a href ="https://www.roadtohire.org/" target="_blank"><img src="r2h.png" class = "logo"></a>
+     <!--Code for custon R2H themed scroll bar-->
+  <style type="text/css">
+::-webkit-scrollbar {
+  width: 18px;
+  height: 18px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #17bcbe;
+  border: 5px none #000000;
+  border-radius: 11px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #187fbf;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #083c59;
+}
+::-webkit-scrollbar-track {
+  background: #666666;
+  border: 8px none #e53434;
+  border-radius: 11px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #666666;
+}
+::-webkit-scrollbar-track:active {
+  background: #666666;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+</style>
+  </head>
+  <body>
+    <!-- this is my navbar code -->
+    <nav>
+      <!-- this is my unordered list code -->
+      <ul class="nav-list">
+        <!-- this is my code for my list items -->
+        <li class="nav-item"><a href="index.html">Home</a></li>
+        <li class="nav-item"><a href="awards.html">Awards and Certifications</a> </li>
+        <li class="nav-item"><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <head>
+    <h1>Contact Me</h1>
+  </head>
+  <!--Creates a header with the text An HTML Form-->
+    <style>
+body1 {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #99badd;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #083c59;
+}
+
+.container1 {
+  border-radius: 2px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+  </body>
+    <body>
+      <div class = "margins">
+ <div class="container1">
+  <form  action="" id="my_form">
+    <label for="fname">First Name</label>
+    <input type="text" id="first_name" name="firstname" placeholder="Your first name...">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="last_name" name="lastname" placeholder="Your last name...">
+ <label for="email">Email</label>
+    <input type="text" id="email" name="Email" placeholder="Your email address">
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Whats up?" style="height:200px"></textarea>
+
+    <center><input type="submit" value="Submit" id="btn" ></center>
+  </form>
+</div>
+</div> 
+      <br>
+      <br>
+      <script src="index.js"></script>
+  <!--Create form that collets first and last name-->
+    <footer>
+      <p>Copyright &copy;2022, Created by Owen Osborne</p>
+    </footer>
+    </body>
+</html>
