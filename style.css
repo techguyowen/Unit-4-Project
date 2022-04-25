@@ -65,3 +65,35 @@ nav {
             display: table;
             margin: 0 auto;
           }
+/* this code sets up a custom class for centering an image */
+.center1 {
+/* Sets the margins around image */
+margin-left: auto;
+margin-right: auto;
+display: flex;
+}
+
+/* this code sets up a custom class for centering an image */
+.center2 {
+/* Sets the margins around image */
+margin-left: auto;
+margin-right: auto;
+/* Sets up a flex box */
+display: flex;
+width: 25%;
+padding: 5px 5px;
+}
+
+/* this code sets up a custom class for font size */
+.1 {
+font-size = 20;
+}
+
+.logo {
+  width: 20%;
+margin-left: auto;
+margin-right: auto;
+display: flex;
+padding: 30px;
+padding-bottom: 30px;
+}
